@@ -1,0 +1,11 @@
+a {
+	font-family: arial;
+	font-size: 13px;
+	text-decoration: none;
+	color: #000;
+}
+
+.center img {
+	height: 92px;
+	width: 272px;
+}
