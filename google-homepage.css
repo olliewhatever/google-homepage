@@ -1,11 +1,40 @@
-body {
+html, body {
 	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+nav a {
+	padding-left: 13px;
+}
+
+a {
+	font-size: 13px;
+	font-family: arial;
+	text-decoration: none;
+	opacity: .75;
+	color: #000;
+}
+
+nav {
+	padding-top: 13px;
+	padding-left: 5px;
+	width: 100%;
+	min-width: 800px;
+}
+
+.rightnav {
+	float: right;
+	padding-right: 10px;
 }
 
 .main {
 	position: relative;
 	top: 165px;
 	text-align: center;
+	clear: right;
 }
 
 .main img {
@@ -45,4 +74,50 @@ input {
 
 #button2 {
 	right: 2px;
+}
+
+nav button {
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	background: #4387fd;
+	color: #fff;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 70px;
+	height: 30px;
+	line-height: 28px;
+	font-size: 13px;
+	font-family: arial;
+}
+
+
+.rightnav img {
+	padding-left: 10px;
+	padding-right: 10px;
+	opacity: .75;
+	position: relative;
+	top: 3px;
+}
+
+footer {
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin: 0px;
+	min-width: 800px;
+	color: #666;
+	height: 40px;
+}
+
+footer a {
+	padding: 10px;
+}
+
+.rightfoot {
+	float: right;
 }
