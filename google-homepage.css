@@ -1,11 +1,48 @@
-a {
-	font-family: arial;
-	font-size: 13px;
-	text-decoration: none;
-	color: #000;
+body {
+	position: relative;
 }
 
-.center img {
+.main {
+	position: relative;
+	top: 165px;
+	text-align: center;
+}
+
+.main img {
 	height: 92px;
 	width: 272px;
+}
+
+input {
+	width: 500px;
+	height: 34px;
+	font-size: 16px;
+	font-family: arial;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	position: relative;
+	top: 10px;
+}
+
+.main button {
+	height: 36px;
+	color: #757575;
+	background: #f2f2f2;
+	font-weight: bold;
+	margin: 11px 4px;
+	padding: 0 16px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	position: relative;
+	top: 20px;
+}
+
+#button1 {
+	left: 2px;
+}
+
+#button2 {
+	right: 2px;
 }
